@@ -4,8 +4,8 @@
 
 ## 使用方法
 
-1. 文件夹 `chaoxing` 是已经配置好的 conda 虚拟环境。首先，解压缩然后导入Anaconda,激活该环境。
-  当然也可以自行搭建环境，需要安装Anaconda, 创建新虚拟环境后pip安装selenium, requests, bs4, time等库，并自行准备好chromedriver和chrome浏览器。
+1. 文件夹 `chaoxing` 是已经配置好的 conda 虚拟环境。首先，解压缩然后导入Anaconda,激活该环境。并且要自行下载安装最新版的chrome浏览器。
+          当然也可以自行搭建环境，需要安装Anaconda, 创建新虚拟环境后pip安装selenium, requests, bs4, time等库，并自行准备好chromedriver和chrome浏览器。
 3. 打开并运行 `attackchaoxing.py`。此时会弹出两个窗口：一个是超星的登录界面，另一个是 Python 终端。
 4. 在终端的提示下输入手机号账户和密码（暂时不支持院校登录方式）。登录后，输入要浏览的课程全名（在超星软件中的全名）。此脚本将自动浏览课程章节中的所有视频内容。
 5. 刷视频的过程是全自动的，请尽量不要乱点。
